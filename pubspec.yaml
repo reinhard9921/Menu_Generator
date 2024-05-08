@@ -55,7 +55,7 @@ dependency_overrides:
   web: ^0.4.2
   firebase_auth_web:
     git:
-      url: git@github.com:firebase/flutterfire.git
+      url: https://github.com/firebase/flutterfire.git
       ref: master
       path: packages/firebase_auth/firebase_auth_web
 
