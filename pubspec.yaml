@@ -51,6 +51,14 @@ dependencies:
   crop_image: ^1.0.12
   printing: ^5.12.0
 
+dependency_overrides:
+  web: ^0.4.2
+  firebase_auth_web:
+    git:
+      url: git@github.com:firebase/flutterfire.git
+      ref: master
+      path: packages/firebase_auth/firebase_auth_web
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
