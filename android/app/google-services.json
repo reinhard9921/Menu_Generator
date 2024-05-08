@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "263363857833",
+    "project_id": "menugenerator-90680",
+    "storage_bucket": "menugenerator-90680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263363857833:android:b19925300e5c5bd16e88b8",
+        "android_client_info": {
+          "package_name": "com.example.menu_generator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLNwC40t9mf-P8I3Bf-jLTlv8Q4IlL4kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
