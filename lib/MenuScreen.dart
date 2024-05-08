@@ -167,7 +167,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 yOffset,
                 page.getClientSize().width - paddingLeftCategory,
                 page.getClientSize().height));
-        yOffset += layoutResultCategory!.bounds!.height + yOffsetIncrement;
+        yOffset += layoutResultCategory!.bounds.height + yOffsetIncrement;
 
         // Add products under the category
         for (var product in category.products) {
@@ -183,7 +183,7 @@ class _MenuScreenState extends State<MenuScreen> {
                   yOffset,
                   page.getClientSize().width - 1.2 * paddingLeftCategory,
                   page.getClientSize().height));
-          yOffset += layoutResultProduct!.bounds!.height + yOffsetIncrement;
+          yOffset += layoutResultProduct!.bounds.height + yOffsetIncrement;
 
           // Add product description with wrapping
           if (product.desc != null) {
@@ -201,7 +201,7 @@ class _MenuScreenState extends State<MenuScreen> {
               ),
             );
             yOffset +=
-                layoutResultDescription!.bounds!.height + yOffsetIncrement;
+                layoutResultDescription!.bounds.height + yOffsetIncrement;
           }
 
           // Add product prices with reduced vertical spacing
@@ -223,7 +223,7 @@ class _MenuScreenState extends State<MenuScreen> {
                     yOffset,
                     page.getClientSize().width - 1.2 * paddingLeftCategory,
                     page.getClientSize().height));
-            yOffset += layoutResultPrice!.bounds!.height +
+            yOffset += layoutResultPrice!.bounds.height +
                 yOffsetIncrement / 2; // Reduced vertical spacing between prices
           }
         }

@@ -50,6 +50,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
   </head>
   <body>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore-compat.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js"></script>
     <script>
       window.addEventListener("load", function (ev) {
         // Download main.dart.js
@@ -64,6 +69,18 @@
           },
         });
       });
+    </script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBFivmv1IKa2yu3vyswFl98LFm_CTZN4rM",
+        authDomain: "menugenerator-90680.firebaseapp.com",
+        projectId: "menugenerator-90680",
+        storageBucket: "menugenerator-90680.appspot.com",
+        messagingSenderId: "263363857833",
+        appId: "1:263363857833:web:cffb95b4d9f86fc96e88b8",
+        measurementId: "G-EK0B882ENF",
+      };
+      firebase.initializeApp(firebaseConfig);
     </script>
   </body>
 </html>
